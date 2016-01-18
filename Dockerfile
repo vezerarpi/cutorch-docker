@@ -14,6 +14,8 @@ ENV PATH=/opt/torch/install/bin:${PATH} \
 RUN luarocks install hash && \
     luarocks install nngraph && \
     luarocks install optim && \
+    luarocks install moses && \
     luarocks install underscore && \
     luarocks install json && \
+    luarocks install yaml && \
     luarocks install https://raw.githubusercontent.com/bshillingford/autobw.torch/master/autobw-scm-1.rockspec
